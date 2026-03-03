@@ -1,0 +1,125 @@
+{
+  "id": "ch2",
+  "title": "Hai Ba Trung",
+  "scenes": [
+    {
+      "id": "s1",
+      "background": "/bg/village.png",
+      "speaker": "Nguoi dan chuyen",
+      "text": "Sau khi nuoc [[Au Lac]] mat, dat nuoc ta roi vao thoi ky [[Bac thuoc]] - bi cac [[trieu dai]] phuong Bac do ho hon 1000 nam.",
+      "nextSceneId": "s2"
+    },
+    {
+      "id": "s2",
+      "background": "/bg/village.png",
+      "speaker": "Nguoi dan chuyen",
+      "text": "Vao nam 40 sau Cong nguyen, hai chi em [[Trung Trac]] va [[Trung Nhi]] da dung len chong lai ach do ho cua nha [[Dong Han]].",
+      "nextSceneId": "s3"
+    },
+    {
+      "id": "s3",
+      "background": "/bg/palace.png",
+      "characterLeft": "/char/trung-trac.png",
+      "characterRight": "/char/trung-nhi.png",
+      "speaker": "Trung Trac",
+      "text": "Quan [[Thi Sach]] - chong ta - da bi ten [[Thai thu]] To Dinh giet hai. Ta khong the ngoi yen nhin dan ta chiu kho!",
+      "nextSceneId": "s4"
+    },
+    {
+      "id": "s4",
+      "background": "/bg/battle.png",
+      "characterLeft": "/char/trung-trac.png",
+      "characterRight": "/char/trung-nhi.png",
+      "speaker": "Trung Nhi",
+      "text": "Chi oi, dan ta da san sang! Cac [[lac tuong]] khap noi deu huong ung. Chung ta se gianh lai dat nuoc!",
+      "nextSceneId": "s5"
+    },
+    {
+      "id": "s5",
+      "background": "/bg/battle.png",
+      "speaker": "Nguoi dan chuyen",
+      "text": "Hai Ba Trung phat dong [[khoi nghia]] tai cua song [[Hat Mon]] (nay thuoc Ha Noi). Hang van nguoi dan huong ung, trong do co nhieu nu tuong.",
+      "choices": [
+        { "text": "Khoi nghia co nhung ai tham gia?", "nextSceneId": "s6a" },
+        { "text": "Ket qua khoi nghia the nao?", "nextSceneId": "s6b" }
+      ]
+    },
+    {
+      "id": "s6a",
+      "background": "/bg/battle.png",
+      "speaker": "Nguoi dan chuyen",
+      "text": "Ngoai Hai Ba Trung, con co nhieu nu tuong nhu ba [[Le Chan]], ba [[Thieu Hoa]]. Dieu dac biet la phu nu Viet Nam thoi do cung cam vu khi ra tran!",
+      "nextSceneId": "s7"
+    },
+    {
+      "id": "s6b",
+      "background": "/bg/battle.png",
+      "speaker": "Nguoi dan chuyen",
+      "text": "Cuoc khoi nghia thanh cong ruc ro! Chi trong thoi gian ngan, quan khoi nghia da chiem duoc 65 thanh tri, duoi duoc [[Thai thu]] To Dinh chay ve nuoc.",
+      "nextSceneId": "s7"
+    },
+    {
+      "id": "s7",
+      "background": "/bg/palace.png",
+      "characterLeft": "/char/trung-trac.png",
+      "speaker": "Nguoi dan chuyen",
+      "text": "Trung Trac duoc ton lam vua, dat do o [[Me Linh]] (nay thuoc Ha Noi). Ba cai tri duoc khoang 3 nam (40-43 sau Cong nguyen).",
+      "nextSceneId": "s8"
+    },
+    {
+      "id": "s8",
+      "background": "/bg/battle.png",
+      "speaker": "Nguoi dan chuyen",
+      "text": "Nam 42, nha Dong Han cu tuong [[Ma Vien]] dem dai quan sang dan ap. Hai Ba Trung chien dau anh dung nhung cuoi cung that bai nam 43.",
+      "nextSceneId": "s9"
+    },
+    {
+      "id": "s9",
+      "background": "/bg/mountain.png",
+      "speaker": "Nguoi dan chuyen",
+      "text": "Du that bai, Hai Ba Trung la bieu tuong cua tinh than [[bat khuat]] cua dan toc. Ngay mung 6 thang 2 am lich hang nam la ngay tuong nho Hai Ba Trung.",
+      "nextSceneId": "s10"
+    },
+    {
+      "id": "s10",
+      "background": "/bg/village.png",
+      "speaker": "Nguoi dan chuyen",
+      "text": "Cuoc khoi nghia Hai Ba Trung la cuoc khoi nghia dau tien chong [[Bac thuoc]], the hien y chi doc lap cua nguoi Viet. Hay thu suc nhe!",
+      "choices": [
+        { "text": "Lam bai tap!", "nextSceneId": "__end__" },
+        { "text": "Doc lai tu dau", "nextSceneId": "s1" }
+      ]
+    }
+  ],
+  "glossary": [
+    { "term": "Au Lac", "definition": "Nuoc do An Duong Vuong lap nen, bi Trieu Da chiem nam 179 TCN." },
+    { "term": "Bac thuoc", "definition": "Thoi ky Viet Nam bi cac trieu dai Trung Quoc do ho (179 TCN - 938 SCN), keo dai hon 1000 nam." },
+    { "term": "trieu dai", "definition": "Mot dong ho cai tri mot quoc gia qua nhieu the he." },
+    { "term": "Trung Trac", "definition": "Chi ca trong Hai Ba Trung, nguoi lanh dao khoi nghia nam 40, sau lam vua." },
+    { "term": "Trung Nhi", "definition": "Em gai Trung Trac, cung lanh dao khoi nghia chong Dong Han." },
+    { "term": "Dong Han", "definition": "Trieu dai Trung Quoc do ho nuoc ta vao thoi diem Hai Ba Trung khoi nghia." },
+    { "term": "Thi Sach", "definition": "Chong ba Trung Trac, bi Thai thu To Dinh giet, la nguyen nhan truc tiep cua khoi nghia." },
+    { "term": "Thai thu", "definition": "Chuc quan do nha Han cu sang cai tri vung dat Viet Nam." },
+    { "term": "lac tuong", "definition": "Cac thu linh dia phuong cua nguoi Viet thoi Bac thuoc." },
+    { "term": "khoi nghia", "definition": "Cuoc noi day cua nhan dan chong lai che do ap buc." },
+    { "term": "Hat Mon", "definition": "Dia diem phat dong khoi nghia cua Hai Ba Trung, nay thuoc huyen Phuc Tho, Ha Noi." },
+    { "term": "Le Chan", "definition": "Nu tuong noi tieng tham gia khoi nghia Hai Ba Trung, nguoi lap nen vung dat Hai Phong." },
+    { "term": "Thieu Hoa", "definition": "Mot trong nhung nu tuong tham gia khoi nghia Hai Ba Trung." },
+    { "term": "Me Linh", "definition": "Kinh do cua nuoc ta duoi thoi Hai Ba Trung, nay thuoc Ha Noi." },
+    { "term": "Ma Vien", "definition": "Tuong nha Dong Han duoc cu sang dan ap khoi nghia Hai Ba Trung." },
+    { "term": "bat khuat", "definition": "Khong chiu khuong phuc, khong chiu dau hang truoc ke thu." }
+  ],
+  "minigames": [
+    {
+      "id": "timeline-ch2",
+      "type": "timeline",
+      "title": "Sap xep cac moc lich su thoi Hai Ba Trung",
+      "events": [
+        { "id": "e1", "text": "To Dinh giet Thi Sach", "correctOrder": 1 },
+        { "id": "e2", "text": "Hai Ba Trung khoi nghia tai Hat Mon", "correctOrder": 2 },
+        { "id": "e3", "text": "Trung Trac len lam vua, do o Me Linh", "correctOrder": 3 },
+        { "id": "e4", "text": "Ma Vien dan quan sang, khoi nghia that bai", "correctOrder": 4 }
+      ]
+    }
+  ]
+}

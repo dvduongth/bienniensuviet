@@ -1,0 +1,289 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "chapterId": "ch1",
+      "tags": ["van-lang", "dung-nuoc"],
+      "difficulty": 1,
+      "prompt": "Nuoc Van Lang la nha nuoc dau tien cua nguoi Viet, do ai dung len?",
+      "options": ["Lac Long Quan", "Hung Vuong", "An Duong Vuong", "Thuc Phan"],
+      "correctIndex": 1,
+      "explanation": "Hung Vuong (nguoi con ca cua Au Co) la nguoi lap ra nuoc Van Lang."
+    },
+    {
+      "id": "q2",
+      "chapterId": "ch1",
+      "tags": ["van-lang", "dung-nuoc"],
+      "difficulty": 1,
+      "prompt": "Thu do cua nuoc Van Lang dat o dau?",
+      "options": ["Co Loa", "Phong Chau", "Thang Long", "Hoa Lu"],
+      "correctIndex": 1,
+      "explanation": "Phong Chau (nay thuoc tinh Phu Tho) la thu do cua nuoc Van Lang."
+    },
+    {
+      "id": "q3",
+      "chapterId": "ch1",
+      "tags": ["van-lang"],
+      "difficulty": 1,
+      "prompt": "Truyen thuyet ke rang Lac Long Quan va Au Co sinh ra bao nhieu nguoi con?",
+      "options": ["50", "100", "18", "200"],
+      "correctIndex": 1,
+      "explanation": "Lac Long Quan va Au Co sinh ra boc tram trung, no ra 100 nguoi con."
+    },
+    {
+      "id": "q4",
+      "chapterId": "ch1",
+      "tags": ["van-lang", "dung-nuoc"],
+      "difficulty": 2,
+      "prompt": "Nuoc Van Lang co tat ca bao nhieu doi Hung Vuong?",
+      "options": ["10 doi", "15 doi", "18 doi", "20 doi"],
+      "correctIndex": 2,
+      "explanation": "Co tat ca 18 doi Hung Vuong truyen ngoi cha truyen con."
+    },
+    {
+      "id": "q5",
+      "chapterId": "ch1",
+      "tags": ["van-lang"],
+      "difficulty": 2,
+      "prompt": "\"Con Rong chau Tien\" co nghia la gi?",
+      "options": [
+        "Con cua Rong va Tien - chi nguon goc nguoi Viet",
+        "Ten mot con vat trong truyen co",
+        "Ten mot ngon nui",
+        "Ten mot dong song"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Con Rong chau Tien\" chi nguon goc cao quy cua dan toc Viet Nam, vi cha la giong Rong, me la giong Tien."
+    },
+    {
+      "id": "q6",
+      "chapterId": "ch1",
+      "tags": ["au-lac", "dung-nuoc"],
+      "difficulty": 1,
+      "prompt": "Ai la nguoi sang lap nuoc Au Lac?",
+      "options": ["Hung Vuong", "Lac Long Quan", "Thuc Phan (An Duong Vuong)", "Au Co"],
+      "correctIndex": 2,
+      "explanation": "Thuc Phan danh bai Hung Vuong thu 18, tu xung An Duong Vuong, lap nuoc Au Lac."
+    },
+    {
+      "id": "q7",
+      "chapterId": "ch1",
+      "tags": ["au-lac"],
+      "difficulty": 1,
+      "prompt": "Kinh do cua nuoc Au Lac la gi?",
+      "options": ["Phong Chau", "Co Loa", "Thang Long", "Hue"],
+      "correctIndex": 1,
+      "explanation": "Co Loa (nay thuoc Ha Noi) la kinh do cua nuoc Au Lac, noi tieng voi thanh hinh xoan oc."
+    },
+    {
+      "id": "q8",
+      "chapterId": "ch1",
+      "tags": ["au-lac"],
+      "difficulty": 2,
+      "prompt": "Thanh Co Loa co dac diem gi noi bat?",
+      "options": [
+        "Xay bang da",
+        "Hinh xoan oc, nhieu vong thanh",
+        "Nam tren nui cao",
+        "Lam bang go"
+      ],
+      "correctIndex": 1,
+      "explanation": "Thanh Co Loa co hinh xoan oc doc dao voi nhieu vong thanh bao boc."
+    },
+    {
+      "id": "q9",
+      "chapterId": "ch1",
+      "tags": ["van-lang", "dung-nuoc"],
+      "difficulty": 2,
+      "prompt": "Trong dong Dong Son la bieu tuong cua dieu gi?",
+      "options": [
+        "Van minh Viet co",
+        "Nuoc Au Lac",
+        "Trieu dai nha Tran",
+        "Thoi ky Bac thuoc"
+      ],
+      "correctIndex": 0,
+      "explanation": "Trong dong Dong Son la hien vat tieu bieu cua nen van minh Viet co, khoang 2000 nam truoc."
+    },
+    {
+      "id": "q10",
+      "chapterId": "ch1",
+      "tags": ["van-lang"],
+      "difficulty": 3,
+      "prompt": "Don vi hanh chinh thoi Van Lang goi la gi?",
+      "options": ["Tinh", "Huyen", "Bo", "Phu"],
+      "correctIndex": 2,
+      "explanation": "Thoi Van Lang, nuoc chia thanh 15 bo - tuong tu nhu tinh ngay nay."
+    },
+    {
+      "id": "q11",
+      "chapterId": "ch1",
+      "tags": ["van-lang", "dung-nuoc"],
+      "difficulty": 3,
+      "prompt": "Ngay Gio To Hung Vuong hang nam la ngay nao (am lich)?",
+      "options": ["Mung 1 thang 1", "Mung 10 thang 3", "Ram thang 8", "Mung 5 thang 5"],
+      "correctIndex": 1,
+      "explanation": "Ngay Gio To Hung Vuong la mung 10 thang 3 am lich, la ngay le quoc gia."
+    },
+    {
+      "id": "q12",
+      "chapterId": "ch1",
+      "tags": ["au-lac", "dung-nuoc"],
+      "difficulty": 3,
+      "prompt": "Nuoc Au Lac duoc thanh lap khi nao?",
+      "options": [
+        "Khoang nam 2879 TCN",
+        "Khoang nam 257 TCN",
+        "Khoang nam 111 TCN",
+        "Khoang nam 40 SCN"
+      ],
+      "correctIndex": 1,
+      "explanation": "Thuc Phan lap nuoc Au Lac khoang nam 257 truoc Cong nguyen."
+    },
+    {
+      "id": "q13",
+      "chapterId": "ch1",
+      "tags": ["van-lang"],
+      "difficulty": 1,
+      "prompt": "Nguoi dan nuoc Van Lang duoc goi la gi?",
+      "options": ["Nguoi Kinh", "Nguoi Au Viet", "Nguoi Lac Viet", "Nguoi Viet Muong"],
+      "correctIndex": 2,
+      "explanation": "Cu dan nuoc Van Lang duoc goi la nguoi Lac Viet."
+    },
+    {
+      "id": "q14",
+      "chapterId": "ch1",
+      "tags": ["au-lac", "dung-nuoc"],
+      "difficulty": 2,
+      "prompt": "Thuc Phan la thu linh cua nhom dan toc nao truoc khi lap nuoc Au Lac?",
+      "options": ["Lac Viet", "Au Viet", "Cham Pa", "Man Viet"],
+      "correctIndex": 1,
+      "explanation": "Thuc Phan la thu linh cua nguoi Au Viet, sau do thong nhat voi Lac Viet thanh Au Lac."
+    },
+    {
+      "id": "q15",
+      "chapterId": "ch1",
+      "tags": ["van-lang", "dung-nuoc"],
+      "difficulty": 2,
+      "prompt": "Nuoc Van Lang nam o vung nao cua Viet Nam ngay nay?",
+      "options": [
+        "Nam Bo",
+        "Bac Bo va Bac Trung Bo",
+        "Tay Nguyen",
+        "Dong Nam Bo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nuoc Van Lang nam o vung Bac Bo va Bac Trung Bo ngay nay."
+    },
+    {
+      "id": "q16",
+      "chapterId": "ch2",
+      "tags": ["hai-ba-trung", "bac-thuoc"],
+      "difficulty": 1,
+      "prompt": "Hai Ba Trung khoi nghia vao nam nao?",
+      "options": ["Nam 40 SCN", "Nam 248 SCN", "Nam 542 SCN", "Nam 938 SCN"],
+      "correctIndex": 0,
+      "explanation": "Hai Ba Trung phat dong khoi nghia nam 40 sau Cong nguyen."
+    },
+    {
+      "id": "q17",
+      "chapterId": "ch2",
+      "tags": ["hai-ba-trung"],
+      "difficulty": 1,
+      "prompt": "Hai Ba Trung khoi nghia chong lai trieu dai nao?",
+      "options": ["Nha Tan", "Nha Dong Han", "Nha Duong", "Nha Tong"],
+      "correctIndex": 1,
+      "explanation": "Hai Ba Trung khoi nghia chong lai ach do ho cua nha Dong Han."
+    },
+    {
+      "id": "q18",
+      "chapterId": "ch2",
+      "tags": ["hai-ba-trung"],
+      "difficulty": 1,
+      "prompt": "Chong cua ba Trung Trac la ai?",
+      "options": ["Ma Vien", "Thi Sach", "To Dinh", "Lac Long Quan"],
+      "correctIndex": 1,
+      "explanation": "Thi Sach la chong ba Trung Trac, bi Thai thu To Dinh giet hai."
+    },
+    {
+      "id": "q19",
+      "chapterId": "ch2",
+      "tags": ["hai-ba-trung"],
+      "difficulty": 2,
+      "prompt": "Hai Ba Trung phat dong khoi nghia tai dau?",
+      "options": ["Me Linh", "Cua song Hat Mon", "Co Loa", "Luy Lau"],
+      "correctIndex": 1,
+      "explanation": "Khoi nghia duoc phat dong tai cua song Hat Mon (nay thuoc Phuc Tho, Ha Noi)."
+    },
+    {
+      "id": "q20",
+      "chapterId": "ch2",
+      "tags": ["hai-ba-trung"],
+      "difficulty": 2,
+      "prompt": "Sau khi khoi nghia thanh cong, Trung Trac dat do o dau?",
+      "options": ["Co Loa", "Phong Chau", "Me Linh", "Thang Long"],
+      "correctIndex": 2,
+      "explanation": "Trung Trac len lam vua, dat kinh do o Me Linh (nay thuoc Ha Noi)."
+    },
+    {
+      "id": "q21",
+      "chapterId": "ch2",
+      "tags": ["hai-ba-trung", "bac-thuoc"],
+      "difficulty": 2,
+      "prompt": "Ai la tuong nha Han duoc cu sang dan ap khoi nghia Hai Ba Trung?",
+      "options": ["To Dinh", "Ma Vien", "Trieu Da", "Ly Thuong Kiet"],
+      "correctIndex": 1,
+      "explanation": "Ma Vien la tuong nha Dong Han duoc cu sang dan ap khoi nghia nam 42-43 SCN."
+    },
+    {
+      "id": "q22",
+      "chapterId": "ch2",
+      "tags": ["hai-ba-trung"],
+      "difficulty": 2,
+      "prompt": "Cuoc khoi nghia Hai Ba Trung chiem duoc bao nhieu thanh tri?",
+      "options": ["25 thanh", "40 thanh", "65 thanh", "100 thanh"],
+      "correctIndex": 2,
+      "explanation": "Quan khoi nghia da chiem duoc 65 thanh tri, duoi Thai thu To Dinh chay ve nuoc."
+    },
+    {
+      "id": "q23",
+      "chapterId": "ch2",
+      "tags": ["hai-ba-trung"],
+      "difficulty": 3,
+      "prompt": "Ngay tuong nho Hai Ba Trung la ngay nao (am lich)?",
+      "options": ["Mung 6 thang 2", "Mung 10 thang 3", "Ram thang 8", "Mung 2 thang 9"],
+      "correctIndex": 0,
+      "explanation": "Ngay mung 6 thang 2 am lich hang nam la ngay tuong nho Hai Ba Trung."
+    },
+    {
+      "id": "q24",
+      "chapterId": "ch2",
+      "tags": ["hai-ba-trung", "bac-thuoc"],
+      "difficulty": 1,
+      "prompt": "\"Bac thuoc\" co nghia la gi?",
+      "options": [
+        "Bi trieu dai phuong Bac do ho",
+        "Vung dat phia Bac",
+        "Thuoc ve phuong Bac",
+        "O phia Bac kinh do"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bac thuoc la thoi ky dat nuoc ta bi cac trieu dai Trung Quoc (phuong Bac) do ho."
+    },
+    {
+      "id": "q25",
+      "chapterId": "ch2",
+      "tags": ["hai-ba-trung"],
+      "difficulty": 3,
+      "prompt": "Dieu dac biet gi ve cuoc khoi nghia Hai Ba Trung?",
+      "options": [
+        "Co nhieu nu tuong tham gia",
+        "Dien ra tren bien",
+        "Keo dai 100 nam",
+        "Duoc nuoc ngoai giup do"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diem dac biet la co rat nhieu nu tuong tham gia, the hien truyen thong phu nu Viet Nam anh hung."
+    }
+  ]
+}

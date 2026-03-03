@@ -1,0 +1,22 @@
+{
+  "chapters": [
+    {
+      "id": "ch1",
+      "title": "Văn Lang – Âu Lạc",
+      "description": "Thời kỳ dựng nước đầu tiên của dân tộc Việt Nam",
+      "icon": "🏛️",
+      "contentFile": "ch1.json",
+      "quizTags": ["van-lang", "au-lac", "dung-nuoc"],
+      "minigames": ["timeline-ch1"]
+    },
+    {
+      "id": "ch2",
+      "title": "Hai Ba Trung",
+      "description": "Cuoc khoi nghia dau tien chong Bac thuoc",
+      "icon": "⚔️",
+      "contentFile": "ch2.json",
+      "quizTags": ["hai-ba-trung", "bac-thuoc"],
+      "minigames": ["timeline-ch2"]
+    }
+  ]
+}
