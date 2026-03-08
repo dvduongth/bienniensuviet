@@ -1,0 +1,104 @@
+
+timeline_database:
+
+  van_lang:
+    era_name: Van Lang
+    period: "~2879 BC - ~258 BC"
+    events:
+      - id: hung_kings_foundation
+        name: Hung Kings establish Van Lang
+        description: Legendary founding of the first Vietnamese state
+      - id: dong_son_culture
+        name: Dong Son Bronze Culture
+        description: Development of advanced bronze casting and Dong Son drums
+      - id: lac_viet_society
+        name: Lac Viet agricultural society
+        description: Early wet-rice civilization
+
+  au_lac:
+    era_name: Au Lac
+    period: "~258 BC - 179 BC"
+    events:
+      - id: an_duong_vuong_rule
+        name: An Duong Vuong unifies Au Lac
+        description: Creation of Co Loa capital
+      - id: co_loa_citadel
+        name: Construction of Co Loa Citadel
+        description: Spiral fortress city
+
+  trung_sisters:
+    era_name: Hai Ba Trung
+    period: "40 AD - 43 AD"
+    events:
+      - id: trung_sisters_revolt
+        name: Trung Sisters revolt
+        description: Uprising against Han rule
+      - id: trung_trac_queen
+        name: Trung Trac crowned queen
+        description: Establishment of independent rule
+
+  ngo_dynasty:
+    era_name: Ngo Dynasty
+    period: "938 - 965"
+    events:
+      - id: bach_dang_938
+        name: Battle of Bach Dang
+        description: Ngo Quyen defeats Southern Han fleet
+      - id: ngo_quyen_king
+        name: Ngo Quyen becomes king
+        description: Beginning of independent Vietnam
+
+  ly_dynasty:
+    era_name: Ly Dynasty
+    period: "1009 - 1225"
+    events:
+      - id: ly_thai_to_capital
+        name: Ly Thai To moves capital to Thang Long
+        description: Establishment of Hanoi as capital
+      - id: temple_of_literature
+        name: Temple of Literature founded
+        description: First national university
+
+  tran_dynasty:
+    era_name: Tran Dynasty
+    period: "1225 - 1400"
+    events:
+      - id: mongol_invasions
+        name: Mongol invasions repelled
+        description: Tran Hung Dao defeats Mongol armies
+      - id: bach_dang_1288
+        name: Battle of Bach Dang 1288
+        description: Strategic naval victory
+
+  le_dynasty:
+    era_name: Le Dynasty
+    period: "1428 - 1789"
+    events:
+      - id: lam_son_uprising
+        name: Lam Son uprising
+        description: Le Loi defeats Ming occupation
+      - id: hong_duc_law
+        name: Hong Duc legal code
+        description: Major legal reforms
+
+  nguyen_dynasty:
+    era_name: Nguyen Dynasty
+    period: "1802 - 1945"
+    events:
+      - id: gia_long_unification
+        name: Gia Long unifies Vietnam
+        description: Founding of Nguyen Dynasty
+      - id: hue_capital
+        name: Hue becomes imperial capital
+        description: Construction of Hue Citadel
+
+  modern_vietnam:
+    era_name: Modern Vietnam
+    period: "1945 - present"
+    events:
+      - id: august_revolution
+        name: August Revolution
+        description: Independence declared in 1945
+      - id: reunification_1975
+        name: Reunification of Vietnam
+        description: End of Vietnam War

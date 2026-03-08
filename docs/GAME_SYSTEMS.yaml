@@ -1,0 +1,61 @@
+
+systems:
+
+  timeline_system:
+    description: manages historical progression across eras
+    node_types:
+      - era_node
+      - event_node
+      - challenge_node
+    mechanics:
+      unlock_rule: knowledge_points_threshold
+      navigation: node_selection
+
+  event_system:
+    description: handles historical event gameplay flow
+    event_flow:
+      - narrator_intro
+      - gameplay_challenge
+      - artifact_discovery
+      - knowledge_question
+      - event_summary
+
+  narrator_dialogue_system:
+    description: controls narrator storytelling and guidance
+    features:
+      - intro_dialogue
+      - contextual_hints
+      - historical_explanation
+      - celebration_dialogue
+
+  knowledge_system:
+    resource: knowledge_points
+    earn_methods:
+      - event_completion
+      - quiz_correct
+      - artifact_discovery
+      - challenge_completion
+    usage:
+      - unlock_events
+      - unlock_eras
+
+  artifact_system:
+    description: collectible historical artifacts
+    features:
+      - artifact_collection
+      - artifact_gallery
+      - lore_description
+
+  character_system:
+    description: historical character unlock and information
+    features:
+      - character_profiles
+      - biography_view
+      - timeline_association
+
+  challenge_system:
+    challenge_types:
+      - quiz
+      - puzzle
+      - tactical_strategy
+      - discovery

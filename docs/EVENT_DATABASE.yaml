@@ -1,0 +1,52 @@
+
+events:
+
+  - id: hung_kings_foundation
+    era: van_lang
+    title: Founding of Van Lang
+    type: narrative_event
+    gameplay:
+      challenge: timeline_quiz
+    rewards:
+      knowledge_points: 50
+      artifact_unlock: bronze_tools
+
+  - id: dong_son_culture
+    era: van_lang
+    title: Dong Son Culture
+    type: discovery_event
+    gameplay:
+      challenge: artifact_puzzle
+    rewards:
+      knowledge_points: 40
+      artifact_unlock: dong_son_drum
+
+  - id: co_loa_citadel
+    era: au_lac
+    title: Construction of Co Loa Citadel
+    type: strategy_event
+    gameplay:
+      challenge: defense_strategy
+    rewards:
+      knowledge_points: 60
+      artifact_unlock: ancient_crossbow
+
+  - id: trung_sisters_rebellion
+    era: trung_sisters
+    title: Trung Sisters Uprising
+    type: battle_event
+    gameplay:
+      challenge: tactical_battle
+    rewards:
+      knowledge_points: 80
+      character_unlock: trung_trac
+
+  - id: bach_dang_938
+    era: ngo_dynasty
+    title: Battle of Bach Dang (938)
+    type: tactical_event
+    gameplay:
+      challenge: naval_strategy
+    rewards:
+      knowledge_points: 100
+      artifact_unlock: bach_dang_stakes
