@@ -1,0 +1,33 @@
+
+art_prompts:
+
+  narrator_character:
+    style: semi_realistic_2D
+    description: |
+      Vietnamese female historical storyteller,
+      inspired by Dong Son culture,
+      bronze hairpin,
+      calm confident expression,
+      traditional ancient Vietnamese attire,
+      muted earthy palette (bronze, indigo, dark green)
+
+  van_lang_village:
+    prompt: |
+      ancient Vietnamese stilt houses village,
+      lush jungle environment,
+      Dong Son bronze culture,
+      warm sunset lighting,
+      historical illustration style
+
+  dong_son_drum:
+    prompt: |
+      detailed Dong Son bronze drum artifact,
+      ancient Vietnamese bronze patterns,
+      archaeological museum lighting
+
+  bach_dang_battle:
+    prompt: |
+      historical naval battle on Bach Dang river,
+      wooden stakes trap,
+      medieval Vietnamese ships,
+      cinematic historical painting

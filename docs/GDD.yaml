@@ -1,0 +1,153 @@
+
+game:
+  title: Bien Nien Su Viet
+  genre: historical narrative strategy educational
+  perspective: 2D timeline exploration
+  platforms:
+    - mobile
+    - web
+  engine:
+    - cocos2d-js
+    - html5 canvas
+
+vision:
+  goal: teach Vietnamese history through interactive gameplay
+  player_role: historical explorer
+  progression: timeline based
+  learning_methods:
+    - storytelling
+    - discovery
+    - quizzes
+    - strategic mini_games
+
+gameplay_loop:
+  - explore_timeline
+  - select_event
+  - narrator_intro
+  - interactive_challenge
+  - earn_knowledge_points
+  - unlock_artifact
+  - unlock_next_event
+
+progression:
+  resource: knowledge_points
+  unlock_condition: era_threshold
+  collectibles:
+    - artifacts
+    - historical_characters
+    - historical_events
+
+timeline:
+  eras:
+    - id: van_lang
+      name: Van Lang
+    - id: au_lac
+      name: Au Lac
+    - id: trung_sisters
+      name: Hai Ba Trung
+    - id: ngo_dynasty
+      name: Ngo Dynasty
+    - id: ly_dynasty
+      name: Ly Dynasty
+    - id: tran_dynasty
+      name: Tran Dynasty
+    - id: le_dynasty
+      name: Le Dynasty
+    - id: nguyen_dynasty
+      name: Nguyen Dynasty
+    - id: modern_vietnam
+      name: Modern Vietnam
+
+era_structure:
+  events_per_era: 5-12
+  artifacts_per_era: 3-6
+  characters_per_era: 2-5
+
+event_structure:
+  steps:
+    - historical_intro
+    - gameplay_challenge
+    - artifact_discovery
+    - knowledge_question
+    - summary
+
+knowledge_system:
+  resource: knowledge_points
+  earn_methods:
+    - event_completion
+    - quiz_correct
+    - artifact_discovery
+    - challenge_completion
+
+map_system:
+  node_types:
+    - era_node
+    - event_node
+    - challenge_node
+
+mini_games:
+  - history_quiz
+  - tactical_battle_puzzle
+  - artifact_discovery
+  - timeline_ordering
+  - resource_strategy
+
+narrator:
+  role: historical_storyteller
+  gender: female
+  personality:
+    - wise
+    - calm
+    - inspiring
+  visual_style:
+    style: semi_realistic_2D
+    inspiration: dong_son_motifs
+    colors:
+      - bronze
+      - indigo
+      - dark_green
+      - maroon
+
+art_direction:
+  style: semi_realistic_2D
+  inspiration:
+    - dong_son_culture
+    - traditional_vietnamese_art
+  palette:
+    - bronze
+    - indigo
+    - dark_green
+    - maroon
+
+audio_direction:
+  music_style: traditional + cinematic
+  instruments:
+    - dan_tranh
+    - dan_bau
+    - traditional_drums
+
+monetization:
+  type: ethical_freemium
+  revenue_streams:
+    - narrator_cosmetics
+    - historical_expansion_packs
+    - artifact_gallery_unlock
+  pay_to_win: false
+
+technical_architecture:
+  project_structure:
+    game:
+      scenes: []
+      systems: []
+      ui: []
+      data: []
+  core_systems:
+    - timeline_system
+    - event_system
+    - narrator_dialogue_system
+    - knowledge_system
+
+future_expansion:
+  - classroom_mode
+  - multiplayer_history_challenges
+  - southeast_asia_history_pack
