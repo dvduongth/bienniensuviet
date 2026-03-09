@@ -45,7 +45,7 @@ function GlossaryTerm({ term, definition }: { term: string; definition: string }
         onClick={() => setShow(!show)}
         onMouseEnter={() => setShow(true)}
         onMouseLeave={() => setShow(false)}
-        aria-label={`Giai thich: ${term}`}
+        aria-label={`Giải thích: ${term}`}
       >
         {term}
       </button>

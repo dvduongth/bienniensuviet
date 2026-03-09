@@ -34,18 +34,18 @@ export function AudioSettings() {
         className={`px-3 py-1.5 rounded-lg text-sm font-medium transition ${
           bgm ? 'bg-amber-200 text-amber-800' : 'bg-stone-200 text-stone-500'
         }`}
-        aria-label={bgm ? 'Tat nhac nen' : 'Bat nhac nen'}
+        aria-label={bgm ? 'Tắt nhạc nền' : 'Bật nhạc nền'}
       >
-        {bgm ? 'Nhac: BAT' : 'Nhac: TAT'}
+        {bgm ? 'Nhạc: BẬT' : 'Nhạc: TẮT'}
       </button>
       <button
         onClick={toggleSfx}
         className={`px-3 py-1.5 rounded-lg text-sm font-medium transition ${
           sfx ? 'bg-amber-200 text-amber-800' : 'bg-stone-200 text-stone-500'
         }`}
-        aria-label={sfx ? 'Tat am thanh' : 'Bat am thanh'}
+        aria-label={sfx ? 'Tắt âm thanh' : 'Bật âm thanh'}
       >
-        {sfx ? 'SFX: BAT' : 'SFX: TAT'}
+        {sfx ? 'SFX: BẬT' : 'SFX: TẮT'}
       </button>
     </div>
   );

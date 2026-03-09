@@ -55,16 +55,16 @@ export function PlayClient({ chapter }: Props) {
   // Complete phase
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-stone-900 text-amber-50 gap-4">
-      <h2 className="text-2xl font-bold">Hoan thanh: {chapter.title}!</h2>
+      <h2 className="text-2xl font-bold">Hoàn thành: {chapter.title}!</h2>
       {minigameScore > 0 && (
-        <p className="text-amber-300 text-lg">Mini-game: {minigameScore} diem</p>
+        <p className="text-amber-300 text-lg">Mini-game: {minigameScore} điểm</p>
       )}
       <div className="flex gap-4">
         <Link
           href="/chapters"
           className="bg-amber-700 hover:bg-amber-600 px-6 py-3 rounded-lg font-semibold transition"
         >
-          Ve danh sach chuong
+          Về danh sách chương
         </Link>
         <button
           className="bg-red-800 hover:bg-red-700 px-6 py-3 rounded-lg font-semibold transition"
@@ -73,7 +73,7 @@ export function PlayClient({ chapter }: Props) {
             setMinigameScore(0);
           }}
         >
-          Doc lai
+          Đọc lại
         </button>
       </div>
     </div>

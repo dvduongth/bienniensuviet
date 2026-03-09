@@ -11,8 +11,8 @@
     },
     {
       "id": "ch2",
-      "title": "Hai Ba Trung",
-      "description": "Cuoc khoi nghia dau tien chong Bac thuoc",
+      "title": "Hai Bà Trưng",
+      "description": "Cuộc khởi nghĩa đầu tiên chống Bắc thuộc",
       "icon": "⚔️",
       "contentFile": "ch2.json",
       "quizTags": ["hai-ba-trung", "bac-thuoc"],

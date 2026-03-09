@@ -56,7 +56,7 @@ export function TimelineDragDrop({ title, events, onComplete }: Props) {
     <div className="max-w-lg mx-auto px-4 py-8">
       <h2 className="text-2xl font-bold text-red-800 mb-2 text-center">{title}</h2>
       <p className="text-stone-500 text-sm text-center mb-6">
-        Keo tha (hoac dung nut) de sap xep cac su kien theo thu tu thoi gian
+        Kéo thả (hoặc dùng nút) để sắp xếp các sự kiện theo thứ tự thời gian
       </p>
 
       <div className="space-y-3">
@@ -100,7 +100,7 @@ export function TimelineDragDrop({ title, events, onComplete }: Props) {
                   onClick={() => moveItem(idx, -1)}
                   disabled={idx === 0}
                   className="w-7 h-7 bg-stone-200 hover:bg-stone-300 rounded text-xs disabled:opacity-30 transition"
-                  aria-label="Di chuyen len"
+                  aria-label="Di chuyển lên"
                 >
                   ↑
                 </button>
@@ -108,7 +108,7 @@ export function TimelineDragDrop({ title, events, onComplete }: Props) {
                   onClick={() => moveItem(idx, 1)}
                   disabled={idx === items.length - 1}
                   className="w-7 h-7 bg-stone-200 hover:bg-stone-300 rounded text-xs disabled:opacity-30 transition"
-                  aria-label="Di chuyen xuong"
+                  aria-label="Di chuyển xuống"
                 >
                   ↓
                 </button>
@@ -130,12 +130,12 @@ export function TimelineDragDrop({ title, events, onComplete }: Props) {
           onClick={handleSubmit}
           className="mt-6 w-full bg-amber-600 hover:bg-amber-500 text-white rounded-xl py-3 font-semibold text-lg transition shadow"
         >
-          Kiem tra
+          Kiểm tra
         </button>
       ) : (
         <div className="mt-6 text-center">
           <p className="text-lg font-bold text-stone-700">
-            Dung {results.filter(Boolean).length}/{items.length} moc ({results.filter(Boolean).length * 25} diem)
+            Đúng {results.filter(Boolean).length}/{items.length} mốc ({results.filter(Boolean).length * 25} điểm)
           </p>
         </div>
       )}

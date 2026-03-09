@@ -1,19 +1,19 @@
 {
   "id": "ch1",
-  "title": "Van Lang - Au Lac",
+  "title": "Văn Lang – Âu Lạc",
   "scenes": [
     {
       "id": "s1",
       "background": "/bg/village.png",
-      "speaker": "Nguoi dan chuyen",
-      "text": "Cac em oi, hom nay chung ta se nghe cau chuyen ve thoi ky [[dung nuoc]] dau tien cua dan toc Viet Nam!",
+      "speaker": "Người dẫn chuyện",
+      "text": "Các em ơi, hôm nay chúng ta sẽ nghe câu chuyện về thời kỳ [[dựng nước]] đầu tiên của dân tộc Việt Nam!",
       "nextSceneId": "s2"
     },
     {
       "id": "s2",
       "background": "/bg/village.png",
-      "speaker": "Nguoi dan chuyen",
-      "text": "Cach day khoang 4000 nam, tren vung dat [[Bac Bo]] ngay nay, co mot vi [[thu linh]] ten la [[Lac Long Quan]].",
+      "speaker": "Người dẫn chuyện",
+      "text": "Cách đây khoảng 4000 năm, trên vùng đất [[Bắc Bộ]] ngày nay, có một vị [[thủ lĩnh]] tên là [[Lạc Long Quân]].",
       "nextSceneId": "s3"
     },
     {
@@ -21,8 +21,8 @@
       "background": "/bg/mountain.png",
       "characterLeft": "/char/lac-long-quan.png",
       "characterRight": "/char/au-co.png",
-      "speaker": "Nguoi dan chuyen",
-      "text": "Lac Long Quan lay [[Au Co]], sinh ra [[boc tram trung]], no ra 100 nguoi con. Day la truyen thuyet ve nguon goc [[con Rong chau Tien]] cua nguoi Viet.",
+      "speaker": "Người dẫn chuyện",
+      "text": "Lạc Long Quân lấy [[Âu Cơ]], sinh ra [[bọc trăm trứng]], nở ra 100 người con. Đây là truyền thuyết về nguồn gốc [[con Rồng cháu Tiên]] của người Việt.",
       "nextSceneId": "s4"
     },
     {
@@ -30,108 +30,108 @@
       "background": "/bg/mountain.png",
       "characterLeft": "/char/lac-long-quan.png",
       "characterRight": "/char/au-co.png",
-      "speaker": "Lac Long Quan",
-      "text": "Ta la giong Rong, nang la giong Tien. 50 con theo ta xuong bien, 50 con theo me len nui.",
+      "speaker": "Lạc Long Quân",
+      "text": "Ta là giống Rồng, nàng là giống Tiên. 50 con theo ta xuống biển, 50 con theo mẹ lên núi.",
       "nextSceneId": "s5"
     },
     {
       "id": "s5",
       "background": "/bg/village.png",
-      "speaker": "Nguoi dan chuyen",
-      "text": "Nguoi con ca theo Au Co len nui duoc ton lam [[Hung Vuong]], lap ra nuoc [[Van Lang]] - nha nuoc dau tien cua nguoi Viet.",
+      "speaker": "Người dẫn chuyện",
+      "text": "Người con cả theo Âu Cơ lên núi được tôn làm [[Hùng Vương]], lập ra nước [[Văn Lang]] — nhà nước đầu tiên của người Việt.",
       "choices": [
-        { "text": "Nuoc Van Lang o dau nhi?", "nextSceneId": "s6a" },
-        { "text": "Hung Vuong la ai?", "nextSceneId": "s6b" }
+        { "text": "Nước Văn Lang ở đâu nhỉ?", "nextSceneId": "s6a" },
+        { "text": "Hùng Vương là ai?", "nextSceneId": "s6b" }
       ]
     },
     {
       "id": "s6a",
       "background": "/bg/map.png",
-      "speaker": "Nguoi dan chuyen",
-      "text": "Nuoc Van Lang nam o vung [[Bac Bo]] va Bac [[Trung Bo]] ngay nay, thu do dat o [[Phong Chau]] (Phu Tho). Dat nuoc co 15 [[bo]] (nhu tinh bay gio).",
+      "speaker": "Người dẫn chuyện",
+      "text": "Nước Văn Lang nằm ở vùng [[Bắc Bộ]] và Bắc [[Trung Bộ]] ngày nay, thủ đô đặt ở [[Phong Châu]] (Phú Thọ). Đất nước có 15 [[bộ]] (như tỉnh bây giờ).",
       "nextSceneId": "s7"
     },
     {
       "id": "s6b",
       "background": "/bg/palace.png",
       "characterLeft": "/char/hung-vuong.png",
-      "speaker": "Nguoi dan chuyen",
-      "text": "[[Hung Vuong]] la danh hieu cua cac vi vua nuoc Van Lang. Co tat ca 18 doi Hung Vuong, truyen ngoi cha truyen con, cai tri trong hon 2000 nam!",
+      "speaker": "Người dẫn chuyện",
+      "text": "[[Hùng Vương]] là danh hiệu của các vị vua nước Văn Lang. Có tất cả 18 đời Hùng Vương, truyền ngôi cha truyền con, cai trị trong khoảng 2622 năm!",
       "nextSceneId": "s7"
     },
     {
       "id": "s7",
       "background": "/bg/village.png",
-      "speaker": "Nguoi dan chuyen",
-      "text": "Nguoi [[Lac Viet]] biet trong lua nuoc, duc [[dong Dong Son]], va to chuc le hoi. Ho song thanh binh qua nhieu the he.",
+      "speaker": "Người dẫn chuyện",
+      "text": "Người [[Lạc Việt]] biết trồng lúa nước, đúc [[đồng Đông Sơn]], và tổ chức lễ hội. Họ sống thanh bình qua nhiều thế hệ.",
       "nextSceneId": "s8"
     },
     {
       "id": "s8",
       "background": "/bg/battle.png",
       "characterLeft": "/char/thuc-phan.png",
-      "speaker": "Nguoi dan chuyen",
-      "text": "Den cuoi thoi Hung Vuong, [[Thuc Phan]] - thu linh nuoc [[Au Viet]] - da danh bai Hung Vuong thu 18, thong nhat hai nuoc thanh nuoc [[Au Lac]].",
+      "speaker": "Người dẫn chuyện",
+      "text": "Đến cuối thời Hùng Vương, [[Thục Phán]] — thủ lĩnh nước [[Âu Việt]] — đã đánh bại Hùng Vương thứ 18, thống nhất hai nước thành nước [[Âu Lạc]].",
       "nextSceneId": "s9"
     },
     {
       "id": "s9",
       "background": "/bg/castle.png",
       "characterLeft": "/char/thuc-phan.png",
-      "speaker": "Thuc Phan",
-      "text": "Ta tu xung la [[An Duong Vuong]], dat ten nuoc la Au Lac, xay thanh [[Co Loa]] lam kinh do!",
+      "speaker": "Thục Phán",
+      "text": "Ta tự xưng là [[An Dương Vương]], đặt tên nước là Âu Lạc, xây thành [[Cổ Loa]] làm kinh đô!",
       "nextSceneId": "s10"
     },
     {
       "id": "s10",
       "background": "/bg/castle.png",
-      "speaker": "Nguoi dan chuyen",
-      "text": "Thanh Co Loa co hinh xoan oc doc dao, nhieu vong thanh bao boc. Day la [[kinh do]] cua nuoc Au Lac. Nhung roi, mot moi de doa moi xuat hien tu phuong Bac...",
+      "speaker": "Người dẫn chuyện",
+      "text": "Thành Cổ Loa có hình xoáy ốc độc đáo, nhiều vòng thành bao bọc. Đây là [[kinh đô]] của nước Âu Lạc. Nhưng rồi, một mối đe dọa mới xuất hiện từ phương Bắc...",
       "nextSceneId": "s11"
     },
     {
       "id": "s11",
       "background": "/bg/castle.png",
-      "speaker": "Nguoi dan chuyen",
-      "text": "Cac em vua tim hieu ve thoi ky dung nuoc dau tien - tu Van Lang den Au Lac. Bay gio hay thu suc voi cau hoi nhe!",
+      "speaker": "Người dẫn chuyện",
+      "text": "Các em vừa tìm hiểu về thời kỳ dựng nước đầu tiên — từ Văn Lang đến Âu Lạc. Bây giờ hãy thử sức với câu hỏi nhé!",
       "choices": [
-        { "text": "Lam bai tap!", "nextSceneId": "__end__" },
-        { "text": "Doc lai tu dau", "nextSceneId": "s1" }
+        { "text": "Làm bài tập!", "nextSceneId": "__end__" },
+        { "text": "Đọc lại từ đầu", "nextSceneId": "s1" }
       ]
     }
   ],
   "glossary": [
-    { "term": "dung nuoc", "definition": "Qua trinh thanh lap mot quoc gia, bao gom to chuc bo may nha nuoc va lanh tho." },
-    { "term": "Bac Bo", "definition": "Vung dat phia Bac Viet Nam, noi bat nguon cua nen van minh Viet co." },
-    { "term": "Trung Bo", "definition": "Vung dat o giua Viet Nam, trai dai tu Thanh Hoa den Binh Thuan." },
-    { "term": "thu linh", "definition": "Nguoi dung dau mot nhom nguoi hoac bo lac." },
-    { "term": "Lac Long Quan", "definition": "Nhan vat truyen thuyet, cha cua nguoi Viet, thuoc giong Rong." },
-    { "term": "Au Co", "definition": "Nhan vat truyen thuyet, me cua nguoi Viet, thuoc giong Tien." },
-    { "term": "boc tram trung", "definition": "Boc ra 100 qua trung - truyen thuyet giai thich nguon goc dan toc Viet." },
-    { "term": "con Rong chau Tien", "definition": "Cau noi chi nguon goc cao quy cua nguoi Viet Nam." },
-    { "term": "Hung Vuong", "definition": "Danh hieu cua cac vua nuoc Van Lang. Ngay Gio To Hung Vuong la 10/3 am lich." },
-    { "term": "Van Lang", "definition": "Nha nuoc dau tien cua nguoi Viet, do cac Hung Vuong cai tri." },
-    { "term": "Phong Chau", "definition": "Thu do cua nuoc Van Lang, nay thuoc tinh Phu Tho." },
-    { "term": "bo", "definition": "Don vi hanh chinh thoi Van Lang, tuong tu nhu tinh ngay nay." },
-    { "term": "Lac Viet", "definition": "Ten goi cu dan nuoc Van Lang." },
-    { "term": "dong Dong Son", "definition": "Trong dong bang dong noi tieng, bieu tuong van minh Viet co (khoang 2000 nam truoc)." },
-    { "term": "Thuc Phan", "definition": "Thu linh Au Viet, sau nay la An Duong Vuong - vua nuoc Au Lac." },
-    { "term": "Au Viet", "definition": "Nhom dan toc song o phia Bac, sau hop nhat voi Lac Viet thanh Au Lac." },
-    { "term": "Au Lac", "definition": "Nuoc thanh lap sau khi Thuc Phan thong nhat Van Lang va Au Viet." },
-    { "term": "An Duong Vuong", "definition": "Vua sang lap nuoc Au Lac, ten that la Thuc Phan." },
-    { "term": "Co Loa", "definition": "Kinh do nuoc Au Lac, noi tieng voi thanh xoan oc, nay thuoc Ha Noi." },
-    { "term": "kinh do", "definition": "Thanh pho chinh cua mot quoc gia, noi vua va trieu dinh lam viec." }
+    { "term": "dựng nước", "definition": "Quá trình thành lập một quốc gia, bao gồm tổ chức bộ máy nhà nước và lãnh thổ." },
+    { "term": "Bắc Bộ", "definition": "Vùng đất phía Bắc Việt Nam, nơi bắt nguồn của nền văn minh Việt cổ." },
+    { "term": "Trung Bộ", "definition": "Vùng đất ở giữa Việt Nam, trải dài từ Thanh Hóa đến Bình Thuận." },
+    { "term": "thủ lĩnh", "definition": "Người đứng đầu một nhóm người hoặc bộ lạc." },
+    { "term": "Lạc Long Quân", "definition": "Nhân vật truyền thuyết, cha của người Việt, thuộc giống Rồng." },
+    { "term": "Âu Cơ", "definition": "Nhân vật truyền thuyết, mẹ của người Việt, thuộc giống Tiên." },
+    { "term": "bọc trăm trứng", "definition": "Bọc ra 100 quả trứng — truyền thuyết giải thích nguồn gốc dân tộc Việt." },
+    { "term": "con Rồng cháu Tiên", "definition": "Câu nói chỉ nguồn gốc cao quý của người Việt Nam." },
+    { "term": "Hùng Vương", "definition": "Danh hiệu chung của các vua nước Văn Lang (2879–258 TCN). 18 đời Hùng Vương là 18 ngành nối tiếp nhau. Ngày Giỗ Tổ Hùng Vương là 10/3 âm lịch." },
+    { "term": "Văn Lang", "definition": "Nhà nước đầu tiên của người Việt, do các Hùng Vương cai trị." },
+    { "term": "Phong Châu", "definition": "Thủ đô của nước Văn Lang, nay thuộc tỉnh Phú Thọ." },
+    { "term": "bộ", "definition": "Đơn vị hành chính thời Văn Lang, tương tự như tỉnh ngày nay." },
+    { "term": "Lạc Việt", "definition": "Tên gọi cư dân nước Văn Lang." },
+    { "term": "đồng Đông Sơn", "definition": "Trống đồng nổi tiếng, biểu tượng văn minh Việt cổ (khoảng 2000 năm trước)." },
+    { "term": "Thục Phán", "definition": "Thủ lĩnh Âu Việt, sau này là An Dương Vương — vua nước Âu Lạc." },
+    { "term": "Âu Việt", "definition": "Nhóm dân tộc sống ở phía Bắc, sau hợp nhất với Lạc Việt thành Âu Lạc." },
+    { "term": "Âu Lạc", "definition": "Nước thành lập sau khi Thục Phán thống nhất Văn Lang và Âu Việt." },
+    { "term": "An Dương Vương", "definition": "Vua sáng lập nước Âu Lạc, tên thật là Thục Phán." },
+    { "term": "Cổ Loa", "definition": "Kinh đô nước Âu Lạc, nổi tiếng với thành xoáy ốc, nay thuộc Hà Nội." },
+    { "term": "kinh đô", "definition": "Thành phố chính của một quốc gia, nơi vua và triều đình làm việc." }
   ],
   "minigames": [
     {
       "id": "timeline-ch1",
       "type": "timeline",
-      "title": "Sap xep cac moc lich su",
+      "title": "Sắp xếp các mốc lịch sử",
       "events": [
-        { "id": "e1", "text": "Lac Long Quan va Au Co sinh 100 con", "correctOrder": 1 },
-        { "id": "e2", "text": "Hung Vuong lap nuoc Van Lang", "correctOrder": 2 },
-        { "id": "e3", "text": "Thuc Phan danh bai Hung Vuong thu 18", "correctOrder": 3 },
-        { "id": "e4", "text": "An Duong Vuong xay thanh Co Loa", "correctOrder": 4 }
+        { "id": "e1", "text": "Lạc Long Quân và Âu Cơ sinh 100 con", "correctOrder": 1 },
+        { "id": "e2", "text": "Hùng Vương lập nước Văn Lang", "correctOrder": 2 },
+        { "id": "e3", "text": "Thục Phán đánh bại Hùng Vương thứ 18", "correctOrder": 3 },
+        { "id": "e4", "text": "An Dương Vương xây thành Cổ Loa", "correctOrder": 4 }
       ]
     }
   ]

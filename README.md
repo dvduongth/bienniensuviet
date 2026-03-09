@@ -1,6 +1,6 @@
-# Bien Nien Su Viet
+# Biên Niên Sử Việt
 
-Game giao duc lich su Viet Nam cho hoc sinh lop 5.
+Game giáo dục lịch sử Việt Nam cho học sinh lớp 5.
 
 ## Stack
 

@@ -1,19 +1,19 @@
 {
   "id": "ch2",
-  "title": "Hai Ba Trung",
+  "title": "Hai Bà Trưng",
   "scenes": [
     {
       "id": "s1",
       "background": "/bg/village.png",
-      "speaker": "Nguoi dan chuyen",
-      "text": "Sau khi nuoc [[Au Lac]] mat, dat nuoc ta roi vao thoi ky [[Bac thuoc]] - bi cac [[trieu dai]] phuong Bac do ho hon 1000 nam.",
+      "speaker": "Người dẫn chuyện",
+      "text": "Sau khi nước [[Âu Lạc]] mất, đất nước ta rơi vào thời kỳ [[Bắc thuộc]] — bị các [[triều đại]] phương Bắc đô hộ hơn 1000 năm.",
       "nextSceneId": "s2"
     },
     {
       "id": "s2",
       "background": "/bg/village.png",
-      "speaker": "Nguoi dan chuyen",
-      "text": "Vao nam 40 sau Cong nguyen, hai chi em [[Trung Trac]] va [[Trung Nhi]] da dung len chong lai ach do ho cua nha [[Dong Han]].",
+      "speaker": "Người dẫn chuyện",
+      "text": "Vào năm 40 sau Công nguyên, hai chị em [[Trưng Trắc]] và [[Trưng Nhị]] đã đứng lên chống lại ách đô hộ của nhà [[Đông Hán]].",
       "nextSceneId": "s3"
     },
     {
@@ -21,8 +21,8 @@
       "background": "/bg/palace.png",
       "characterLeft": "/char/trung-trac.png",
       "characterRight": "/char/trung-nhi.png",
-      "speaker": "Trung Trac",
-      "text": "Quan [[Thi Sach]] - chong ta - da bi ten [[Thai thu]] To Dinh giet hai. Ta khong the ngoi yen nhin dan ta chiu kho!",
+      "speaker": "Trưng Trắc",
+      "text": "Quan [[Thi Sách]] — chồng ta — đã bị tên [[Thái thú]] Tô Định giết hại. Ta không thể ngồi yên nhìn dân ta chịu khổ!",
       "nextSceneId": "s4"
     },
     {
@@ -30,95 +30,95 @@
       "background": "/bg/battle.png",
       "characterLeft": "/char/trung-trac.png",
       "characterRight": "/char/trung-nhi.png",
-      "speaker": "Trung Nhi",
-      "text": "Chi oi, dan ta da san sang! Cac [[lac tuong]] khap noi deu huong ung. Chung ta se gianh lai dat nuoc!",
+      "speaker": "Trưng Nhị",
+      "text": "Chị ơi, dân ta đã sẵn sàng! Các [[lạc tướng]] khắp nơi đều hưởng ứng. Chúng ta sẽ giành lại đất nước!",
       "nextSceneId": "s5"
     },
     {
       "id": "s5",
       "background": "/bg/battle.png",
-      "speaker": "Nguoi dan chuyen",
-      "text": "Hai Ba Trung phat dong [[khoi nghia]] tai cua song [[Hat Mon]] (nay thuoc Ha Noi). Hang van nguoi dan huong ung, trong do co nhieu nu tuong.",
+      "speaker": "Người dẫn chuyện",
+      "text": "Hai Bà Trưng phát động [[khởi nghĩa]] tại cửa sông [[Hát Môn]] (nay thuộc Hà Nội). Hàng vạn người dân hưởng ứng, trong đó có nhiều nữ tướng.",
       "choices": [
-        { "text": "Khoi nghia co nhung ai tham gia?", "nextSceneId": "s6a" },
-        { "text": "Ket qua khoi nghia the nao?", "nextSceneId": "s6b" }
+        { "text": "Khởi nghĩa có những ai tham gia?", "nextSceneId": "s6a" },
+        { "text": "Kết quả khởi nghĩa thế nào?", "nextSceneId": "s6b" }
       ]
     },
     {
       "id": "s6a",
       "background": "/bg/battle.png",
-      "speaker": "Nguoi dan chuyen",
-      "text": "Ngoai Hai Ba Trung, con co nhieu nu tuong nhu ba [[Le Chan]], ba [[Thieu Hoa]]. Dieu dac biet la phu nu Viet Nam thoi do cung cam vu khi ra tran!",
+      "speaker": "Người dẫn chuyện",
+      "text": "Ngoài Hai Bà Trưng, còn có nhiều nữ tướng như bà [[Lê Chân]], bà [[Thiều Hoa]]. Điều đặc biệt là phụ nữ Việt Nam thời đó cũng cầm vũ khí ra trận!",
       "nextSceneId": "s7"
     },
     {
       "id": "s6b",
       "background": "/bg/battle.png",
-      "speaker": "Nguoi dan chuyen",
-      "text": "Cuoc khoi nghia thanh cong ruc ro! Chi trong thoi gian ngan, quan khoi nghia da chiem duoc 65 thanh tri, duoi duoc [[Thai thu]] To Dinh chay ve nuoc.",
+      "speaker": "Người dẫn chuyện",
+      "text": "Cuộc khởi nghĩa thành công rực rỡ! Chỉ trong thời gian ngắn, quân khởi nghĩa đã chiếm được 65 thành trì, đuổi được [[Thái thú]] Tô Định chạy về nước.",
       "nextSceneId": "s7"
     },
     {
       "id": "s7",
       "background": "/bg/palace.png",
       "characterLeft": "/char/trung-trac.png",
-      "speaker": "Nguoi dan chuyen",
-      "text": "Trung Trac duoc ton lam vua, dat do o [[Me Linh]] (nay thuoc Ha Noi). Ba cai tri duoc khoang 3 nam (40-43 sau Cong nguyen).",
+      "speaker": "Người dẫn chuyện",
+      "text": "Trưng Trắc được tôn làm vua, đặt đô ở [[Mê Linh]] (nay thuộc Hà Nội). Bà cai trị được khoảng 3 năm (40–43 sau Công nguyên).",
       "nextSceneId": "s8"
     },
     {
       "id": "s8",
       "background": "/bg/battle.png",
-      "speaker": "Nguoi dan chuyen",
-      "text": "Nam 42, nha Dong Han cu tuong [[Ma Vien]] dem dai quan sang dan ap. Hai Ba Trung chien dau anh dung nhung cuoi cung that bai nam 43.",
+      "speaker": "Người dẫn chuyện",
+      "text": "Năm 42, nhà Đông Hán cử tướng [[Mã Viện]] đem đại quân sang đàn áp. Hai Bà Trưng chiến đấu anh dũng nhưng cuối cùng thất bại năm 43.",
       "nextSceneId": "s9"
     },
     {
       "id": "s9",
       "background": "/bg/mountain.png",
-      "speaker": "Nguoi dan chuyen",
-      "text": "Du that bai, Hai Ba Trung la bieu tuong cua tinh than [[bat khuat]] cua dan toc. Ngay mung 6 thang 2 am lich hang nam la ngay tuong nho Hai Ba Trung.",
+      "speaker": "Người dẫn chuyện",
+      "text": "Dù thất bại, Hai Bà Trưng là biểu tượng của tinh thần [[bất khuất]] của dân tộc. Ngày mùng 6 tháng 2 âm lịch hằng năm là ngày tưởng nhớ Hai Bà Trưng.",
       "nextSceneId": "s10"
     },
     {
       "id": "s10",
       "background": "/bg/village.png",
-      "speaker": "Nguoi dan chuyen",
-      "text": "Cuoc khoi nghia Hai Ba Trung la cuoc khoi nghia dau tien chong [[Bac thuoc]], the hien y chi doc lap cua nguoi Viet. Hay thu suc nhe!",
+      "speaker": "Người dẫn chuyện",
+      "text": "Cuộc khởi nghĩa Hai Bà Trưng là cuộc khởi nghĩa đầu tiên chống [[Bắc thuộc]], thể hiện ý chí độc lập của người Việt. Hãy thử sức nhé!",
       "choices": [
-        { "text": "Lam bai tap!", "nextSceneId": "__end__" },
-        { "text": "Doc lai tu dau", "nextSceneId": "s1" }
+        { "text": "Làm bài tập!", "nextSceneId": "__end__" },
+        { "text": "Đọc lại từ đầu", "nextSceneId": "s1" }
       ]
     }
   ],
   "glossary": [
-    { "term": "Au Lac", "definition": "Nuoc do An Duong Vuong lap nen, bi Trieu Da chiem nam 179 TCN." },
-    { "term": "Bac thuoc", "definition": "Thoi ky Viet Nam bi cac trieu dai Trung Quoc do ho (179 TCN - 938 SCN), keo dai hon 1000 nam." },
-    { "term": "trieu dai", "definition": "Mot dong ho cai tri mot quoc gia qua nhieu the he." },
-    { "term": "Trung Trac", "definition": "Chi ca trong Hai Ba Trung, nguoi lanh dao khoi nghia nam 40, sau lam vua." },
-    { "term": "Trung Nhi", "definition": "Em gai Trung Trac, cung lanh dao khoi nghia chong Dong Han." },
-    { "term": "Dong Han", "definition": "Trieu dai Trung Quoc do ho nuoc ta vao thoi diem Hai Ba Trung khoi nghia." },
-    { "term": "Thi Sach", "definition": "Chong ba Trung Trac, bi Thai thu To Dinh giet, la nguyen nhan truc tiep cua khoi nghia." },
-    { "term": "Thai thu", "definition": "Chuc quan do nha Han cu sang cai tri vung dat Viet Nam." },
-    { "term": "lac tuong", "definition": "Cac thu linh dia phuong cua nguoi Viet thoi Bac thuoc." },
-    { "term": "khoi nghia", "definition": "Cuoc noi day cua nhan dan chong lai che do ap buc." },
-    { "term": "Hat Mon", "definition": "Dia diem phat dong khoi nghia cua Hai Ba Trung, nay thuoc huyen Phuc Tho, Ha Noi." },
-    { "term": "Le Chan", "definition": "Nu tuong noi tieng tham gia khoi nghia Hai Ba Trung, nguoi lap nen vung dat Hai Phong." },
-    { "term": "Thieu Hoa", "definition": "Mot trong nhung nu tuong tham gia khoi nghia Hai Ba Trung." },
-    { "term": "Me Linh", "definition": "Kinh do cua nuoc ta duoi thoi Hai Ba Trung, nay thuoc Ha Noi." },
-    { "term": "Ma Vien", "definition": "Tuong nha Dong Han duoc cu sang dan ap khoi nghia Hai Ba Trung." },
-    { "term": "bat khuat", "definition": "Khong chiu khuong phuc, khong chiu dau hang truoc ke thu." }
+    { "term": "Âu Lạc", "definition": "Nước do An Dương Vương lập nên, bị Triệu Đà chiếm năm 179 TCN." },
+    { "term": "Bắc thuộc", "definition": "Thời kỳ Việt Nam bị các triều đại Trung Quốc đô hộ (179 TCN – 938 SCN), kéo dài hơn 1000 năm." },
+    { "term": "triều đại", "definition": "Một dòng họ cai trị một quốc gia qua nhiều thế hệ." },
+    { "term": "Trưng Trắc", "definition": "Chị cả trong Hai Bà Trưng, người lãnh đạo khởi nghĩa năm 40, sau làm vua." },
+    { "term": "Trưng Nhị", "definition": "Em gái Trưng Trắc, cùng lãnh đạo khởi nghĩa chống Đông Hán." },
+    { "term": "Đông Hán", "definition": "Triều đại Trung Quốc đô hộ nước ta vào thời điểm Hai Bà Trưng khởi nghĩa." },
+    { "term": "Thi Sách", "definition": "Chồng bà Trưng Trắc, bị Thái thú Tô Định giết, là nguyên nhân trực tiếp của khởi nghĩa." },
+    { "term": "Thái thú", "definition": "Chức quan do nhà Hán cử sang cai trị vùng đất Việt Nam." },
+    { "term": "lạc tướng", "definition": "Các thủ lĩnh địa phương của người Việt thời Bắc thuộc." },
+    { "term": "khởi nghĩa", "definition": "Cuộc nổi dậy của nhân dân chống lại chế độ áp bức." },
+    { "term": "Hát Môn", "definition": "Địa điểm phát động khởi nghĩa của Hai Bà Trưng, nay thuộc huyện Phúc Thọ, Hà Nội." },
+    { "term": "Lê Chân", "definition": "Nữ tướng nổi tiếng tham gia khởi nghĩa Hai Bà Trưng, người lập nên vùng đất Hải Phòng." },
+    { "term": "Thiều Hoa", "definition": "Một trong những nữ tướng tham gia khởi nghĩa Hai Bà Trưng." },
+    { "term": "Mê Linh", "definition": "Kinh đô của nước ta dưới thời Hai Bà Trưng, nay thuộc Hà Nội." },
+    { "term": "Mã Viện", "definition": "Tướng nhà Đông Hán được cử sang đàn áp khởi nghĩa Hai Bà Trưng." },
+    { "term": "bất khuất", "definition": "Không chịu khuất phục, không chịu đầu hàng trước kẻ thù." }
   ],
   "minigames": [
     {
       "id": "timeline-ch2",
       "type": "timeline",
-      "title": "Sap xep cac moc lich su thoi Hai Ba Trung",
+      "title": "Sắp xếp các mốc lịch sử thời Hai Bà Trưng",
       "events": [
-        { "id": "e1", "text": "To Dinh giet Thi Sach", "correctOrder": 1 },
-        { "id": "e2", "text": "Hai Ba Trung khoi nghia tai Hat Mon", "correctOrder": 2 },
-        { "id": "e3", "text": "Trung Trac len lam vua, do o Me Linh", "correctOrder": 3 },
-        { "id": "e4", "text": "Ma Vien dan quan sang, khoi nghia that bai", "correctOrder": 4 }
+        { "id": "e1", "text": "Tô Định giết Thi Sách", "correctOrder": 1 },
+        { "id": "e2", "text": "Hai Bà Trưng khởi nghĩa tại Hát Môn", "correctOrder": 2 },
+        { "id": "e3", "text": "Trưng Trắc lên làm vua, đóng đô ở Mê Linh", "correctOrder": 3 },
+        { "id": "e4", "text": "Mã Viện dẫn quân sang, khởi nghĩa thất bại", "correctOrder": 4 }
       ]
     }
   ]

@@ -1,12 +1,32 @@
 'use client';
 
 import { useState, useEffect, useCallback, useMemo } from 'react';
+import Image from 'next/image';
 import { ChapterContent, Scene } from '@/lib/types';
 import { GlossaryText } from './GlossaryText';
 import { saveSceneProgress, markChapterCompleted } from '@/lib/progress';
 import { AudioSettings } from '@/components/AudioSettings';
 import { playSfx } from '@/lib/audio';
 import { speakText, stopSpeaking, isTtsAvailable } from '@/lib/tts';
+
+/* ── Asset mapping: scene paths → real texture files ── */
+const BG_MAP: Record<string, { src: string; base?: string }> = {
+  '/bg/village.png': { src: '/textures/Hung_Vuong_village.png' },
+  '/bg/mountain.png': { src: '/textures/VanLang_AuLac_CoLoa_bacground.png' },
+  '/bg/palace.png': { src: '/textures/VanLang_AuLac_CoLoa_bacground.png' },
+  '/bg/castle.png': { src: '/textures/Au_Lac_Co_Loa_citadel.png', base: '/textures/startup_story_backround.png' },
+  '/bg/battle.png': { src: '/textures/Trung_Sisters_elephants_silhouette.png', base: '/textures/startup_story_backround.png' },
+  '/bg/map.png': { src: '/textures/startup_story_backround.png' },
+};
+
+const CHAR_MAP: Record<string, string> = {
+  '/char/lac-long-quan.png': '/textures/lac_long_quan_character.png',
+  '/char/au-co.png': '/textures/au_co_character.png',
+  '/char/hung-vuong.png': '/textures/Hung_Vuong_character.png',
+  '/char/thuc-phan.png': '/textures/thuc_phan_character.png',
+  '/char/trung-trac.png': '/textures/trung_trac_character.png',
+  '/char/trung-nhi.png': '/textures/trung_nhi_character.png',
+};
 
 interface Props {
   chapter: ChapterContent;
@@ -126,33 +146,64 @@ export function VNEngine({ chapter, initialSceneId, onEnd }: Props) {
             className={`px-3 py-1.5 rounded-lg text-sm font-medium transition ${
               ttsEnabled ? 'bg-emerald-200 text-emerald-800' : 'bg-stone-200 text-stone-500'
             }`}
-            aria-label={ttsEnabled ? 'Tat doc' : 'Doc loi dan chuyen'}
+            aria-label={ttsEnabled ? 'Tắt đọc' : 'Đọc lời dẫn chuyện'}
           >
-            {ttsEnabled ? 'Doc: BAT' : 'Doc: TAT'}
+            {ttsEnabled ? 'Đọc: BẬT' : 'Đọc: TẮT'}
           </button>
         )}
       </div>
 
-      {/* Background placeholder */}
-      <div className="absolute inset-0 flex items-center justify-center">
-        <div className="w-full h-full bg-gradient-to-b from-stone-700 to-stone-900 flex items-center justify-center">
-          <span className="text-stone-600 text-sm">{currentScene.background || 'bg'}</span>
-        </div>
+      {/* Background */}
+      <div className="absolute inset-0">
+        {(() => {
+          const bgInfo = currentScene.background ? BG_MAP[currentScene.background] : null;
+          if (!bgInfo) {
+            return <div className="w-full h-full bg-gradient-to-b from-stone-700 to-stone-900" />;
+          }
+          return (
+            <>
+              {bgInfo.base && (
+                <Image
+                  src={bgInfo.base}
+                  alt=""
+                  fill
+                  className="object-cover"
+                  priority
+                />
+              )}
+              <Image
+                src={bgInfo.src}
+                alt=""
+                fill
+                className={bgInfo.base ? 'object-contain' : 'object-cover'}
+                priority
+              />
+              {/* Dark overlay for text readability */}
+              <div className="absolute inset-0 bg-gradient-to-t from-stone-900/80 via-stone-900/20 to-stone-900/40" />
+            </>
+          );
+        })()}
       </div>
 
-      {/* Character sprites placeholders */}
+      {/* Character sprites */}
       {currentScene.characterLeft && (
-        <div className="absolute bottom-32 left-8 w-32 h-48 bg-stone-600/50 rounded-xl flex items-center justify-center">
-          <span className="text-stone-400 text-xs text-center px-1">
-            {currentScene.characterLeft.split('/').pop()?.replace('.png', '')}
-          </span>
+        <div className="absolute bottom-36 left-4 sm:left-8 w-28 sm:w-40 h-52 sm:h-72 z-10 drop-shadow-2xl">
+          <Image
+            src={CHAR_MAP[currentScene.characterLeft] || currentScene.characterLeft}
+            alt={currentScene.characterLeft.split('/').pop()?.replace('.png', '') || ''}
+            fill
+            className="object-contain object-bottom"
+          />
         </div>
       )}
       {currentScene.characterRight && (
-        <div className="absolute bottom-32 right-8 w-32 h-48 bg-stone-600/50 rounded-xl flex items-center justify-center">
-          <span className="text-stone-400 text-xs text-center px-1">
-            {currentScene.characterRight.split('/').pop()?.replace('.png', '')}
-          </span>
+        <div className="absolute bottom-36 right-4 sm:right-8 w-28 sm:w-40 h-52 sm:h-72 z-10 drop-shadow-2xl">
+          <Image
+            src={CHAR_MAP[currentScene.characterRight] || currentScene.characterRight}
+            alt={currentScene.characterRight.split('/').pop()?.replace('.png', '') || ''}
+            fill
+            className="object-contain object-bottom"
+          />
         </div>
       )}
 
@@ -172,9 +223,9 @@ export function VNEngine({ chapter, initialSceneId, onEnd }: Props) {
                 speakText(currentScene.text);
               }}
               className="ml-auto bg-stone-700 hover:bg-stone-600 text-amber-200 px-2 py-1 rounded text-xs transition"
-              aria-label="Doc lai doan nay"
+              aria-label="Đọc lại đoạn này"
             >
-              Doc lai
+              Đọc lại
             </button>
           )}
         </div>
@@ -204,7 +255,7 @@ export function VNEngine({ chapter, initialSceneId, onEnd }: Props) {
         {/* Next indicator */}
         {textRevealed && !currentScene.choices?.length && currentScene.nextSceneId && (
           <div className="text-amber-400 text-sm mt-2 animate-pulse">
-            Nhan Space hoac click de tiep tuc...
+            Nhấn Space hoặc click để tiếp tục...
           </div>
         )}
       </div>

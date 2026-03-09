@@ -28,24 +28,24 @@ export function LeaderboardClient() {
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-10">
-      <h1 className="text-3xl font-bold text-red-800 mb-2">Bang xep hang tuan</h1>
-      <p className="text-stone-500 text-sm mb-6">Tuan: {weekKey}</p>
+      <h1 className="text-3xl font-bold text-red-800 mb-2">Bảng xếp hạng tuần</h1>
+      <p className="text-stone-500 text-sm mb-6">Tuần: {weekKey}</p>
 
       <div className="bg-white rounded-xl shadow border border-amber-200 overflow-hidden">
         {loading ? (
-          <p className="text-stone-500 text-center p-6">Dang tai...</p>
+          <p className="text-stone-500 text-center p-6">Đang tải...</p>
         ) : entries.length === 0 ? (
           <p className="text-stone-500 text-center p-6">
-            Chua co du lieu. Hay choi Dau nhanh de ghi diem!
+            Chưa có dữ liệu. Hãy chơi Đấu nhanh để ghi điểm!
           </p>
         ) : (
           <table className="w-full">
             <thead className="bg-amber-100">
               <tr>
                 <th className="px-4 py-3 text-left text-sm font-semibold text-stone-700">#</th>
-                <th className="px-4 py-3 text-left text-sm font-semibold text-stone-700">Ten</th>
-                <th className="px-4 py-3 text-right text-sm font-semibold text-stone-700">Diem</th>
-                <th className="px-4 py-3 text-right text-sm font-semibold text-stone-700">Dung</th>
+                <th className="px-4 py-3 text-left text-sm font-semibold text-stone-700">Tên</th>
+                <th className="px-4 py-3 text-right text-sm font-semibold text-stone-700">Điểm</th>
+                <th className="px-4 py-3 text-right text-sm font-semibold text-stone-700">Đúng</th>
               </tr>
             </thead>
             <tbody>
